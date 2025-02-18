@@ -1,0 +1,9 @@
+@BASE_URL = http://localhost:3333
+
+POST {{BASE_URL}}/subscriptions
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@gmail.com"
+}
