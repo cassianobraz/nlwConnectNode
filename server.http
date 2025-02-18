@@ -7,3 +7,6 @@ Content-Type: application/json
   "name": "John Doe",
   "email": "john.doe@gmail.com"
 }
+
+###
+GET {{BASE_URL}}/invites/cassiano12

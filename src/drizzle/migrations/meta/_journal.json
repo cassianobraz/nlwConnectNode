@@ -8,6 +8,13 @@
       "when": 1739883887800,
       "tag": "0000_hot_viper",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1739885700633,
+      "tag": "0001_misty_thunderbolts",
+      "breakpoints": true
     }
   ]
 }
