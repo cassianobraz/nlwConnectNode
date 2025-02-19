@@ -5,8 +5,20 @@ Content-Type: application/json
 
 {
   "name": "John Doe",
-  "email": "john.doe@gmail.com"
+  "email": "john.doe@gmail.com",
 }
 
 ###
-GET {{BASE_URL}}/invites/cassiano12
+GET {{BASE_URL}}/invites/<:id>
+
+###
+GET {{BASE_URL}}/subscribers/<:id>/ranking/clicks
+
+###
+GET {{BASE_URL}}/subscribers/<:id>/ranking/count
+
+###
+GET {{BASE_URL}}/subscribers/<:id>/ranking/position
+
+###
+GET {{BASE_URL}}/ranking
